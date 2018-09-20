@@ -227,12 +227,9 @@ var MainNetParams = Params{
 	Net:         wire.MainNet,
 	DefaultPort: "8333",
 	DNSSeeds: []DNSSeed{
-		{"seed.bitcoin.sipa.be", true},
-		{"dnsseed.bluematt.me", true},
-		{"dnsseed.bitcoin.dashjr.org", false},
-		{"seed.bitcoinstats.com", true},
-		{"seed.bitnodes.io", false},
-		{"seed.bitcoin.jonasschnelli.ch", true},
+		{"seed.aib.one", true},
+		{"seed.iobond.com", true},
+		{"seed.wtminit.com", true},
 	},
 
 	// Chain parameters
@@ -254,24 +251,16 @@ var MainNetParams = Params{
 
 	// Checkpoints ordered from oldest to newest.
 	Checkpoints: []Checkpoint{
-		{11111, newHashFromStr("0000000069e244f73d78e8fd29ba2fd2ed618bd6fa2ee92559f542fdb26e7c1d")},
-		{33333, newHashFromStr("000000002dd5588a74784eaa7ab0507a18ad16a236e7b1ce69f00d7ddfb5d0a6")},
-		{74000, newHashFromStr("0000000000573993a3c9e41ce34471c079dcf5f52a0e824a81e7f953b8661a20")},
-		{105000, newHashFromStr("00000000000291ce28027faea320c8d2b054b2e0fe44a773f3eefb151d6bdc97")},
-		{134444, newHashFromStr("00000000000005b12ffd4cd315cd34ffd4a594f430ac814c91184a0d42d2b0fe")},
-		{168000, newHashFromStr("000000000000099e61ea72015e79632f216fe6cb33d7899acb35b75c8303b763")},
-		{193000, newHashFromStr("000000000000059f452a5f7340de6682a977387c17010ff6e6c3bd83ca8b1317")},
-		{210000, newHashFromStr("000000000000048b95347e83192f69cf0366076336c639f9b7228e9ba171342e")},
-		{216116, newHashFromStr("00000000000001b4f4b433e81ee46494af945cf96014816a4e2370f11b23df4e")},
-		{225430, newHashFromStr("00000000000001c108384350f74090433e7fcf79a606b8e797f065b130575932")},
-		{250000, newHashFromStr("000000000000003887df1f29024b06fc2200b55f8af8f35453d7be294df2d214")},
-		{267300, newHashFromStr("000000000000000a83fbd660e918f218bf37edd92b748ad940483c7c116179ac")},
-		{279000, newHashFromStr("0000000000000001ae8c72a0b0c301f67e3afca10e819efa9041e458e9bd7e40")},
-		{300255, newHashFromStr("0000000000000000162804527c6e9b9f0563a280525f9d08c12041def0a0f3b2")},
-		{319400, newHashFromStr("000000000000000021c6052e9becade189495d1c539aa37c58917305fd15f13b")},
-		{343185, newHashFromStr("0000000000000000072b8bf361d01a6ba7d445dd024203fafc78768ed4368554")},
-		{352940, newHashFromStr("000000000000000010755df42dba556bb72be6a32f3ce0b6941ce4430152c9ff")},
-		{382320, newHashFromStr("00000000000000000a8dc6ed5b133d0eb2fd6af56203e4159789b092defd8ab2")},
+		{  0, newHashFromStr("062550537871c387faaa5cd91bb8a2cf4b67d3a4ec816799ecc1f5cb7fd54bcc")},
+		{  225020, newHashFromStr("dea0bb494b8884893e3a1065ce39878b5fec42e2ce85a972d2bfeadb380353b3")},
+		{  930000, newHashFromStr("8f70c1b144d1d4c80373b2726375d2316e6112e06a828ac97c9f94b9572fbfd2")},
+		{  935888, newHashFromStr("8f1b9aee7f3df37e7c84fa44ebc86110097b18b537a62757fdb5e64fe8262387")},
+		{  999000, newHashFromStr("d2bb717d1bf8552e38ec4887007956286e63da7f1f7e2418704ace0670e28a3c")},
+		{ 1126570, newHashFromStr("6621385447902763a41ed49c771270f506b06c23667c3885485c3162a514b440")},
+		{ 1154619, newHashFromStr("b3df98957ccfeb9da0eb5ef929cf929ae9a6bf1917f79578688b55c25cf6b67d")},
+		{ 1213390, newHashFromStr("098ed783d5cf8428215686ddef1a88ba372d58b28f3f571a437f15bbaae59d55")},
+		{ 1216820, newHashFromStr("e69b85a94471d42b254be77062f65edba84f3a5972a1d2a4bb8b14e1526cef52")},
+		{ 1224490, newHashFromStr("c20d8dab92dc16854d6cddefe9ce7905aa18b0ad949cc7848dc7008338641c4c")},
 	},
 
 	// Consensus rule change deployments.
@@ -282,19 +271,19 @@ var MainNetParams = Params{
 	MinerConfirmationWindow:       2016, //
 	Deployments: [DefinedDeployments]ConsensusDeployment{
 		DeploymentTestDummy: {
-			BitNumber:  28,
+			BitNumber:  6,
 			StartTime:  1199145601, // January 1, 2008 UTC
-			ExpireTime: 1230767999, // December 31, 2008 UTC
+			ExpireTime: 1230767999, // start + (1year/25)
 		},
 		DeploymentCSV: {
 			BitNumber:  0,
-			StartTime:  1462060800, // May 1st, 2016
-			ExpireTime: 1493596800, // May 1st, 2017
+			StartTime:  1498694400, // June 28, 2017
+			ExpireTime: 1530230400, // June 28, 2018
 		},
 		DeploymentSegwit: {
 			BitNumber:  1,
-			StartTime:  1479168000, // November 15, 2016 UTC
-			ExpireTime: 1510704000, // November 15, 2017 UTC.
+			StartTime:  1498694400, // November 15, 2016 UTC
+			ExpireTime: 1530230400, // November 15, 2017 UTC.
 		},
 	},
 
@@ -306,9 +295,9 @@ var MainNetParams = Params{
 	Bech32HRPSegwit: "bc", // always bc for main net
 
 	// Address encoding magics
-	PubKeyHashAddrID:        0x00, // starts with 1
+	PubKeyHashAddrID:        0x17, // starts with A
 	ScriptHashAddrID:        0x05, // starts with 3
-	PrivateKeyID:            0x80, // starts with 5 (uncompressed) or K (compressed)
+	PrivateKeyID:            0x97, // starts with 5 (uncompressed) or K (compressed)
 	WitnessPubKeyHashAddrID: 0x06, // starts with p2
 	WitnessScriptHashAddrID: 0x0A, // starts with 7Xh
 
