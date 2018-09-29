@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibd/wire"
 )
 
 // blockStatus is a bit field representing the validation state of the block.

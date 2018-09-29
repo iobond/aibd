@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/btcsuite/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	rpc "github.com/iobond/aibd/rpcclient"
+	"github.com/iobond/aibutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

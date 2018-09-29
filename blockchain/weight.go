@@ -7,9 +7,9 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/iobond/aibd/txscript"
+	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibutil"
 )
 
 const (

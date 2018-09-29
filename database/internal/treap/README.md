@@ -1,9 +1,9 @@
 treap
 =====
 
-[![Build Status](https://travis-ci.org/btcsuite/btcd.png?branch=master)](https://travis-ci.org/btcsuite/btcd)
+[![Build Status](https://travis-ci.org/iobond/aibd.png?branch=master)](https://travis-ci.org/iobond/aibd)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/btcsuite/btcd/database/internal/treap?status.png)](http://godoc.org/github.com/btcsuite/btcd/database/internal/treap)
+[![GoDoc](https://godoc.org/github.com/iobond/aibd/database/internal/treap?status.png)](http://godoc.org/github.com/iobond/aibd/database/internal/treap)
 
 Package treap implements a treap data structure that is used to hold ordered
 key/value pairs using a combination of binary search tree and heap semantics.

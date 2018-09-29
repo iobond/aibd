@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcd/addrmgr"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/iobond/aibd/addrmgr"
+	"github.com/iobond/aibd/wire"
 )
 
 func TestChance(t *testing.T) {

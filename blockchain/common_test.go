@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	_ "github.com/btcsuite/btcd/database/ffldb"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibd/database"
+	_ "github.com/iobond/aibd/database/ffldb"
+	"github.com/iobond/aibd/txscript"
+	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibutil"
 )
 
 const (
