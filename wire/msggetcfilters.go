@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // MaxGetCFiltersReqRange the maximum number of filters that may be requested in

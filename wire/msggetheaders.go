@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // MsgGetHeaders implements the Message interface and represents a bitcoin

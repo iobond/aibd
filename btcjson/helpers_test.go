@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // TestHelpers tests the various helper functions which create pointers to

@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/iobond/aibd/blockchain"
-	"github.com/iobond/aibd/blockchain/indexers"
-	"github.com/iobond/aibd/database"
-	"github.com/iobond/aibd/limits"
+	"github.com/iobond/aibgo/blockchain"
+	"github.com/iobond/aibgo/blockchain/indexers"
+	"github.com/iobond/aibgo/database"
+	"github.com/iobond/aibgo/limits"
 	"github.com/btcsuite/btclog"
 )
 

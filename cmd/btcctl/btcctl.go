@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 const (

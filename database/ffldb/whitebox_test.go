@@ -17,9 +17,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/database"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/database"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"

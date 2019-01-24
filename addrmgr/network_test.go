@@ -8,8 +8,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/iobond/aibd/addrmgr"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/addrmgr"
+	"github.com/iobond/aibgo/wire"
 )
 
 // TestIPTypes ensures the various functions which determine the type of an IP

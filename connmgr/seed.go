@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/wire"
 )
 
 const (

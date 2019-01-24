@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the

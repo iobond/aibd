@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

@@ -12,9 +12,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/database"
-	"github.com/iobond/aibd/database/ffldb"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/database"
+	"github.com/iobond/aibgo/database/ffldb"
 	"github.com/iobond/aibutil"
 )
 

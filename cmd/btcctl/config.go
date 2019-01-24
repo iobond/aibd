@@ -13,7 +13,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 	"github.com/iobond/aibutil"
 	flags "github.com/jessevdk/go-flags"
 )

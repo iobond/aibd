@@ -7,7 +7,7 @@ package main
 import (
 	"log"
 
-	"github.com/iobond/aibd/rpcclient"
+	"github.com/iobond/aibgo/rpcclient"
 )
 
 func main() {

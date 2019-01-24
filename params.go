@@ -5,8 +5,8 @@
 package main
 
 import (
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

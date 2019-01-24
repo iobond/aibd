@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the

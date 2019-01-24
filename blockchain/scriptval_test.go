@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/iobond/aibd/txscript"
+	"github.com/iobond/aibgo/txscript"
 )
 
 // TestCheckBlockScripts ensures that validating the all of the scripts in a

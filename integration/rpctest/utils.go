@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/rpcclient"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/rpcclient"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

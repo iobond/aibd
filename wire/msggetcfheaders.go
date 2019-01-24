@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // MsgGetCFHeaders is a message similar to MsgGetHeaders, but for committed

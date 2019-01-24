@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/iobond/aibd/chaincfg"
+	. "github.com/iobond/aibgo/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

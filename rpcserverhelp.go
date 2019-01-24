@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // helpDescsEnUS defines the English descriptions used for the help strings.

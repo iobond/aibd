@@ -12,14 +12,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/iobond/aibd/blockchain"
-	"github.com/iobond/aibd/blockchain/fullblocktests"
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/database"
-	_ "github.com/iobond/aibd/database/ffldb"
-	"github.com/iobond/aibd/txscript"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/blockchain"
+	"github.com/iobond/aibgo/blockchain/fullblocktests"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/database"
+	_ "github.com/iobond/aibgo/database/ffldb"
+	"github.com/iobond/aibgo/txscript"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 )
 

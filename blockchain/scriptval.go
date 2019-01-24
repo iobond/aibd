@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/iobond/aibd/txscript"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/txscript"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 )
 

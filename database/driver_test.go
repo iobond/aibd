@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iobond/aibd/database"
-	_ "github.com/iobond/aibd/database/ffldb"
+	"github.com/iobond/aibgo/database"
+	_ "github.com/iobond/aibgo/database/ffldb"
 )
 
 var (

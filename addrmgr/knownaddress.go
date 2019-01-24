@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 // KnownAddress tracks information about a known network address that is used

@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/iobond/aibd/blockchain"
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/database"
-	_ "github.com/iobond/aibd/database/ffldb"
+	"github.com/iobond/aibgo/blockchain"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/database"
+	_ "github.com/iobond/aibgo/database/ffldb"
 	"github.com/iobond/aibutil"
 )
 

@@ -1,4 +1,4 @@
-package: github.com/iobond/aibd
+package: github.com/iobond/aibgo
 import:
 - package: github.com/btcsuite/btclog
 - package: github.com/iobond/aibutil

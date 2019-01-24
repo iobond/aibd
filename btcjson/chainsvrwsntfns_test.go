@@ -12,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // TestChainSvrWsNtfns tests all of the chain server websocket-specific

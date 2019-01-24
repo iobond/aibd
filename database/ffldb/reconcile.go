@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/database"
 )
 
 // The serialized write cursor location format is:

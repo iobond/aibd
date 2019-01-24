@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/iobond/aibd/blockchain"
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/database"
-	"github.com/iobond/aibd/mempool"
-	peerpkg "github.com/iobond/aibd/peer"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/blockchain"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/database"
+	"github.com/iobond/aibgo/mempool"
+	peerpkg "github.com/iobond/aibgo/peer"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 )
 

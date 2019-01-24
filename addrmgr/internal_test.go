@@ -7,7 +7,7 @@ package addrmgr
 import (
 	"time"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 func TstKnownAddressIsBad(ka *KnownAddress) bool {

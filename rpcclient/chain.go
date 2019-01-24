@@ -10,9 +10,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/iobond/aibd/btcjson"
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/btcjson"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/wire"
 )
 
 // FutureGetBestBlockHashResult is a future promise to deliver the result of a

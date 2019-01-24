@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on

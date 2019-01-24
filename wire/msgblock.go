@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

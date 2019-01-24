@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/btcjson"
+	"github.com/iobond/aibgo/wire"
 )
 
 // TestChainSvrCmds tests all of the chain server commands marshal and unmarshal

@@ -8,8 +8,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

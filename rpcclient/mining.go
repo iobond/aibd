@@ -9,8 +9,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/iobond/aibd/btcjson"
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/btcjson"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/iobond/aibutil"
 )
 

@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

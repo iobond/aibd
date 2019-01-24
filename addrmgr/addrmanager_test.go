@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iobond/aibd/addrmgr"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/addrmgr"
+	"github.com/iobond/aibgo/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

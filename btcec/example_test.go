@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

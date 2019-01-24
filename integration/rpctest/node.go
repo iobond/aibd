@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/iobond/aibd/rpcclient"
+	rpc "github.com/iobond/aibgo/rpcclient"
 	"github.com/iobond/aibutil"
 )
 

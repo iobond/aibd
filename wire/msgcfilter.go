@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 // FilterType is used to represent a filter type.

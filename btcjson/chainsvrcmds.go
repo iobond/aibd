@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 // AddNodeSubCmd defines the type used in the addnode JSON-RPC command for the

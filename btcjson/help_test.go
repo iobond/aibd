@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // TestHelpReflectInternals ensures the various help functions which deal with

@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/iobond/aibd/btcec"
-	"github.com/iobond/aibd/txscript"
+	"github.com/iobond/aibgo/btcec"
+	"github.com/iobond/aibgo/txscript"
 )
 
 // -----------------------------------------------------------------------------

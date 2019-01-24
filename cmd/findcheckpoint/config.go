@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/database"
-	_ "github.com/iobond/aibd/database/ffldb"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/database"
+	_ "github.com/iobond/aibgo/database/ffldb"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 	flags "github.com/jessevdk/go-flags"
 )

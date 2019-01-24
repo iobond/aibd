@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // TestIsValidIDType ensures the IsValidIDType function behaves as expected.

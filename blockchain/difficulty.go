@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 var (

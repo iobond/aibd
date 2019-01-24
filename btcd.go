@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/iobond/aibd/blockchain/indexers"
-	"github.com/iobond/aibd/database"
-	"github.com/iobond/aibd/limits"
+	"github.com/iobond/aibgo/blockchain/indexers"
+	"github.com/iobond/aibgo/database"
+	"github.com/iobond/aibgo/limits"
 )
 
 const (

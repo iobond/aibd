@@ -12,7 +12,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 const (

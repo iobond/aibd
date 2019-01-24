@@ -10,10 +10,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/database"
-	_ "github.com/iobond/aibd/database/ffldb"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/database"
+	_ "github.com/iobond/aibgo/database/ffldb"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 )
 
@@ -22,8 +22,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/iobond/aibd/database"
-	// 	_ "github.com/iobond/aibd/database/ffldb"
+	// 	"github.com/iobond/aibgo/database"
+	// 	_ "github.com/iobond/aibgo/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -48,8 +48,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/iobond/aibd/database"
-	// 	_ "github.com/iobond/aibd/database/ffldb"
+	// 	"github.com/iobond/aibgo/database"
+	// 	_ "github.com/iobond/aibgo/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -114,8 +114,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/iobond/aibd/database"
-	// 	_ "github.com/iobond/aibd/database/ffldb"
+	// 	"github.com/iobond/aibgo/database"
+	// 	_ "github.com/iobond/aibgo/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

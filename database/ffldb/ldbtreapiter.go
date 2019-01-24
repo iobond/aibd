@@ -5,7 +5,7 @@
 package ffldb
 
 import (
-	"github.com/iobond/aibd/database/internal/treap"
+	"github.com/iobond/aibgo/database/internal/treap"
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/util"
 )

@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
 )
 

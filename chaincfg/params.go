@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

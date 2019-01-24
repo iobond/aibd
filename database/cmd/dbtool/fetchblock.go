@@ -9,8 +9,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/database"
 )
 
 // fetchBlockCmd defines the configuration options for the fetchblock command.

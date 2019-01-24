@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/database"
 	"github.com/iobond/aibutil"
 )
 

@@ -1,9 +1,9 @@
 rpctest
 =======
 
-[![Build Status](http://img.shields.io/travis/iobond/aibd.svg)](https://travis-ci.org/iobond/aibd)
+[![Build Status](http://img.shields.io/travis/iobond/aibgo.svg)](https://travis-ci.org/iobond/aibgo)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibd/integration/rpctest)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibgo/integration/rpctest)
 
 Package rpctest provides a btcd-specific RPC testing harness crafting and
 executing integration tests by driving a `btcd` instance via the `RPC`
@@ -20,7 +20,7 @@ systems/integration tests.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/iobond/aibd/integration/rpctest
+$ go get -u github.com/iobond/aibgo/integration/rpctest
 ```
 
 ## License

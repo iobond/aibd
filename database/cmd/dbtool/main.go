@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/database"
 	"github.com/btcsuite/btclog"
 	flags "github.com/jessevdk/go-flags"
 )

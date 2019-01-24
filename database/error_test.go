@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

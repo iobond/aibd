@@ -1,9 +1,9 @@
 ffldb
 =====
 
-[![Build Status](https://travis-ci.org/iobond/aibd.png?branch=master)](https://travis-ci.org/iobond/aibd)
+[![Build Status](https://travis-ci.org/iobond/aibgo.png?branch=master)](https://travis-ci.org/iobond/aibgo)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/iobond/aibd/database/ffldb?status.png)](http://godoc.org/github.com/iobond/aibd/database/ffldb)
+[![GoDoc](https://godoc.org/github.com/iobond/aibgo/database/ffldb?status.png)](http://godoc.org/github.com/iobond/aibgo/database/ffldb)
 =======
 
 Package ffldb implements a driver for the database package that uses leveldb for

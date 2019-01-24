@@ -145,6 +145,6 @@ raw message bytes using a format similar to hexdump -C.
 Bitcoin Improvement Proposals
 
 This package supports all BIPS supported by the wire package.
-(https://godoc.org/github.com/iobond/aibd/wire#hdr-Bitcoin_Improvement_Proposals)
+(https://godoc.org/github.com/iobond/aibgo/wire#hdr-Bitcoin_Improvement_Proposals)
 */
 package peer

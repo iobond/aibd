@@ -9,9 +9,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/peer"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/peer"
+	"github.com/iobond/aibgo/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

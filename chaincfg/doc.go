@@ -26,7 +26,7 @@
 //          "log"
 //
 //          "github.com/iobond/aibutil"
-//          "github.com/iobond/aibd/chaincfg"
+//          "github.com/iobond/aibgo/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

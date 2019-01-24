@@ -1,9 +1,9 @@
 mempool
 =======
 
-[![Build Status](http://img.shields.io/travis/iobond/aibd.svg)](https://travis-ci.org/iobond/aibd)
+[![Build Status](http://img.shields.io/travis/iobond/aibgo.svg)](https://travis-ci.org/iobond/aibgo)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibd/mempool)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibgo/mempool)
 
 Package mempool provides a policy-enforced pool of unmined bitcoin transactions.
 
@@ -74,7 +74,7 @@ be an exhaustive list.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/iobond/aibd/mempool
+$ go get -u github.com/iobond/aibgo/mempool
 ```
 
 ## License

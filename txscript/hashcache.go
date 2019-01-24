@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
+	"github.com/iobond/aibgo/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

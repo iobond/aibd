@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 	"github.com/davecgh/go-spew/spew"
 )
 

@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 // testNoncePrng provides a deterministic prng for the nonce in generated fake

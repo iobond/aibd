@@ -9,7 +9,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // TestUsageFlagStringer tests the stringized output for the UsageFlag type.

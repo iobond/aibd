@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 // addrIndexBucket provides a mock address index database bucket by implementing

@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/iobond/aibd/rpcclient"
+	"github.com/iobond/aibgo/rpcclient"
 	"github.com/iobond/aibutil"
 	"github.com/davecgh/go-spew/spew"
 )

@@ -10,7 +10,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/iobond/aibd/chaincfg/chainhash"
+	"github.com/iobond/aibgo/chaincfg/chainhash"
 )
 
 const (

@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iobond/aibd/addrmgr"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/addrmgr"
+	"github.com/iobond/aibgo/wire"
 )
 
 func TestChance(t *testing.T) {

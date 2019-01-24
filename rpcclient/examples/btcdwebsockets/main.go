@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/iobond/aibd/rpcclient"
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/rpcclient"
+	"github.com/iobond/aibgo/wire"
 	"github.com/iobond/aibutil"
 )
 

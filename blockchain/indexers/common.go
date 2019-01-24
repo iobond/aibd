@@ -11,8 +11,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/iobond/aibd/blockchain"
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/blockchain"
+	"github.com/iobond/aibgo/database"
 	"github.com/iobond/aibutil"
 )
 

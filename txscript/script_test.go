@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

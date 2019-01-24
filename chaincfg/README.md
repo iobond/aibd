@@ -1,9 +1,9 @@
 chaincfg
 ========
 
-[![Build Status](http://img.shields.io/travis/iobond/aibd.svg)](https://travis-ci.org/iobond/aibd)
+[![Build Status](http://img.shields.io/travis/iobond/aibgo.svg)](https://travis-ci.org/iobond/aibgo)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibd/chaincfg)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibgo/chaincfg)
 
 Package chaincfg defines chain configuration parameters for the three standard
 Bitcoin networks and provides the ability for callers to define their own custom
@@ -25,7 +25,7 @@ import (
 	"log"
 
 	"github.com/iobond/aibutil"
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/chaincfg"
 )
 
 var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")
@@ -56,7 +56,7 @@ func main() {
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/iobond/aibd/chaincfg
+$ go get -u github.com/iobond/aibgo/chaincfg
 ```
 
 ## GPG Verification Key

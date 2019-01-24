@@ -14,8 +14,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/integration/rpctest"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/integration/rpctest"
 )
 
 func testGetBestBlock(r *rpctest.Harness, t *testing.T) {

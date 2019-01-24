@@ -1,9 +1,9 @@
 btcjson
 =======
 
-[![Build Status](https://travis-ci.org/iobond/aibd.png?branch=master)](https://travis-ci.org/iobond/aibd)
+[![Build Status](https://travis-ci.org/iobond/aibgo.png?branch=master)](https://travis-ci.org/iobond/aibgo)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibd/btcjson)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/iobond/aibgo/btcjson)
 
 Package btcjson implements concrete types for marshalling to and from the
 bitcoin JSON-RPC API.  A comprehensive suite of tests is provided to ensure
@@ -25,22 +25,22 @@ ints, etc) to higher-level types with many nice and useful properties.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/iobond/aibd/btcjson
+$ go get -u github.com/iobond/aibgo/btcjson
 ```
 
 ## Examples
 
-* [Marshal Command](http://godoc.org/github.com/iobond/aibd/btcjson#example-MarshalCmd)
+* [Marshal Command](http://godoc.org/github.com/iobond/aibgo/btcjson#example-MarshalCmd)
   Demonstrates how to create and marshal a command into a JSON-RPC request.
 
-* [Unmarshal Command](http://godoc.org/github.com/iobond/aibd/btcjson#example-UnmarshalCmd)
+* [Unmarshal Command](http://godoc.org/github.com/iobond/aibgo/btcjson#example-UnmarshalCmd)
   Demonstrates how to unmarshal a JSON-RPC request and then unmarshal the
   concrete request into a concrete command.
 
-* [Marshal Response](http://godoc.org/github.com/iobond/aibd/btcjson#example-MarshalResponse)
+* [Marshal Response](http://godoc.org/github.com/iobond/aibgo/btcjson#example-MarshalResponse)
   Demonstrates how to marshal a JSON-RPC response.
 
-* [Unmarshal Response](http://godoc.org/github.com/iobond/aibd/btcjson#example-package--UnmarshalResponse)
+* [Unmarshal Response](http://godoc.org/github.com/iobond/aibgo/btcjson#example-package--UnmarshalResponse)
   Demonstrates how to unmarshal a JSON-RPC response and then unmarshal the
   result field in the response to a concrete type.
 

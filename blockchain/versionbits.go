@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/iobond/aibd/chaincfg"
+	"github.com/iobond/aibgo/chaincfg"
 )
 
 const (

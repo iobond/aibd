@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/iobond/aibd/btcjson"
+	"github.com/iobond/aibgo/btcjson"
 )
 
 // TestWalletSvrWsCmds tests all of the wallet server websocket-specific

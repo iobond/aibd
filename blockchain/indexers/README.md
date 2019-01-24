@@ -1,9 +1,9 @@
 indexers
 ========
 
-[![Build Status](https://travis-ci.org/iobond/aibd.png?branch=master)](https://travis-ci.org/iobond/aibd)
+[![Build Status](https://travis-ci.org/iobond/aibgo.png?branch=master)](https://travis-ci.org/iobond/aibgo)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/iobond/aibd/blockchain/indexers?status.png)](http://godoc.org/github.com/iobond/aibd/blockchain/indexers)
+[![GoDoc](https://godoc.org/github.com/iobond/aibgo/blockchain/indexers?status.png)](http://godoc.org/github.com/iobond/aibgo/blockchain/indexers)
 
 Package indexers implements optional block chain indexes.
 
@@ -23,7 +23,7 @@ via an RPC interface.
 ## Installation
 
 ```bash
-$ go get -u github.com/iobond/aibd/blockchain/indexers
+$ go get -u github.com/iobond/aibgo/blockchain/indexers
 ```
 
 ## License

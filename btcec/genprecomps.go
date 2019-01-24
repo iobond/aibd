@@ -17,7 +17,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/iobond/aibd/btcec"
+	"github.com/iobond/aibgo/btcec"
 )
 
 func main() {

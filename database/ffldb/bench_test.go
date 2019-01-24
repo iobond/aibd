@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/iobond/aibd/chaincfg"
-	"github.com/iobond/aibd/database"
+	"github.com/iobond/aibgo/chaincfg"
+	"github.com/iobond/aibgo/database"
 	"github.com/iobond/aibutil"
 )
 

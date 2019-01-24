@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/iobond/aibd/wire"
+	"github.com/iobond/aibgo/wire"
 )
 
 var (
